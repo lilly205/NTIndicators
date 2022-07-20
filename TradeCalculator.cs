@@ -53,9 +53,7 @@ namespace NinjaTrader.NinjaScript.Indicators
 			this.tradeDirection=tradeDirection;
 		}
 	}
-	
-	//should probably change all checks to be if the high/low of current bar meets target instead of current price. Just saw where the bar managed to tick lower and insta reverse so it didnt get counted as a loss
-	//shorts seem to have loss one tick too high?
+
 	
 	public class MyCustomIndicator : Indicator
 	{
